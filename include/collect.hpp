@@ -6,6 +6,6 @@
 #include "payload.hpp"
 
 class Collect {
- public:
-  static std::optional<std::vector<Field>> get(const PayloadType type);
+public:
+    static std::optional<std::vector<Field>> get(const PayloadType type);
 };
